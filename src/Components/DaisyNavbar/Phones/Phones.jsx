@@ -62,7 +62,7 @@ const Phones = () => {
           phones.map((phone,index)=><Displayphones key={index} phone={phone}></Displayphones>)
          }     
     </div>
-    <div className="barchart w-[800px] mx-auto  p-6 rounded-lg md:w-[700px] mt-6 bg-green-300">
+    <div className="barchart w-[800px] mx-auto md:mx-0  p-6 rounded-lg md:w-[700px] mt-6 bg-green-300">
                <h2 className='text-green-500 font-semibold'>This is the barchart of mobile phones.</h2>
     <BarChart width={600} height={300} data={phones}>
     <XAxis stroke='blue' dataKey="name"  />
