@@ -15,7 +15,7 @@ const Linechart = () => {
                             
   return (
     <div>
-     <div className="linechart bg-blue-400 h-[500px] w-[600px] mt-7 rounded-lg ">
+     <div className="linechart bg-blue-400 h-[500px] mx-auto w-[600px] mt-7 rounded-lg ">
    
      <LineChart width={500} height={500} data={data} >
              <XAxis dataKey="name"></XAxis>

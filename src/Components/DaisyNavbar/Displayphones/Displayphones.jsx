@@ -5,7 +5,7 @@ const Displayphones = ({phone}) => {
   const{phone_name,brand,price,image} = phone;
   return (
     <div>
-     <div className="card p-8 text-gray-600  w-[300px] font-bold shadow-xl shadow-gray-400">
+     <div className="card p-8 text-gray-600 w-[800px] mx-auto md:w-[300px] font-bold shadow-xl shadow-gray-400">
      <img src={image} alt="" />
                <h2 className='text-2xl '>Phone Name:{phone_name}</h2>
                <h2 className=''>Brand Name:{brand}</h2>
